@@ -1,39 +1,52 @@
 # A2Makelaars.com
 
-Websitebestanden voor A2 Makelaars, gericht op Aalsmeer en omgeving.
+Publieke GitHub-repository voor de statische website van A2 Makelaars.
 
-## Inhoud
-
+## Website
 - `index.html` — homepage
+- `contact.html` — contact & bereikbaarheid
 - `nieuws.html` — nieuws en marktinzichten
-- `assets/style.css` — vormgeving en responsive layout
-- `assets/script.js` — mobiele navigatie en gedrag conceptformulier
+- `assets/style.css` — responsive vormgeving
+- `assets/script.js` — mobiele navigatie
 
-## Publiceren via Hostinger
+## Zakelijke contactstructuur
+De website is voorbereid op:
+- `info@a2makelaars.com` — algemene vragen
+- `verkoop@a2makelaars.com` — verkoop / waardebepaling
+- `aankoop@a2makelaars.com` — aankoopbegeleiding
+- zakelijk mobiel / WhatsApp: **06 17 75 04 05**
 
-Voor een statische HTML-site ondersteunt Hostinger Git-deployment via GitHub OAuth.
+Persoonlijk/direct nummer van Win is bewust niet als hoofdnummer op de site gezet.
 
-1. Open Hostinger hPanel.
-2. Ga naar **Websites** en open het dashboard van `A2Makelaars.com`.
-3. Ga naar **Advanced / Geavanceerd → Git**.
-4. Kies **Connect with GitHub / Continue with GitHub**.
-5. Autoriseer de Hostinger GitHub-app voor deze repository.
-6. Selecteer repository `wienes-source/A2Makelaars.com`.
-7. Selecteer branch `main`.
-8. Kies de map waar de website moet worden geplaatst (voor de hoofddomeinsite doorgaans `public_html`).
-9. Start de eerste deployment.
-10. Schakel automatische deployments in wanneer deze optie wordt aangeboden, zodat toekomstige wijzigingen op `main` automatisch naar Hostinger gaan.
+## Contactpunt Aalsmeer
+Eric Godschalk — Control4u Administraties B.V.
+Aalsmeerderweg 283-35
+1432 CN Aalsmeer
+0297 - 768003
+info@control4uadministraties.nl
 
-> Let op: bij de eerste Git-deployment kunnen bestaande bestanden in de doelmap worden overschreven. Maak daarom eerst een backup van de huidige `public_html`-map als daar nog bestanden staan die bewaard moeten blijven.
+## Hostinger Mail
+Maak in hPanel onder E-mail de volgende mailboxen of aliassen aan:
+1. info@a2makelaars.com
+2. verkoop@a2makelaars.com
+3. aankoop@a2makelaars.com
 
-## Nog te configureren
+Advies: gebruik `info@` als echte hoofdmailbox en laat `verkoop@` en `aankoop@` als aliassen doorsturen naar die mailbox, tenzij meerdere medewerkers ieder een eigen inbox nodig hebben.
 
-- Definitieve contactgegevens
-- Koppeling van het contactformulier aan een mailbox of formulierdienst
-- Eventuele woning-/kavelobjecten en foto's
-- Favicon en definitief logo
-- Eventuele juridische pagina's (privacy/cookies)
+## GitHub → Hostinger
+Repository: `wienes-source/A2Makelaars.com`
+Branch: `main`
+
+In Hostinger:
+1. Websites → A2Makelaars.com → Dashboard
+2. Advanced / Geavanceerd → Git
+3. Connect with GitHub
+4. Repository `wienes-source/A2Makelaars.com`
+5. Branch `main`
+6. Deploy naar `public_html`
+7. Automatische deployment inschakelen
+
+Maak vóór de eerste deployment een back-up van de bestaande `public_html`.
 
 ## Status
-
-Conceptversie — 25 september 2026.
+Basisstructuur bijgewerkt op 24 november 2026.
