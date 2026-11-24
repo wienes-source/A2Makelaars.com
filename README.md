@@ -1,54 +1,44 @@
 # A2Makelaars.com
 
-Publieke GitHub-repository voor de statische website van A2 Makelaars.
+Publieke GitHub-repository voor de website van **A2 Makelaars**.
 
-## Website
-- `index.html` — homepage
+## Vernieuwde website
+De homepage is op 24 november 2026 opnieuw opgebouwd op basis van het aangeleverde Google Stitch-concept. De nieuwe stijl gebruikt:
+- Plus Jakarta Sans + Inter
+- zwart / wit / teal als hoofdkleuren
+- afgeronde vastgoedkaarten en moderne mobiele navigatie
+- natuurlijke woningbeelden uit het aangeleverde ontwerp
+- geïntegreerde YouTube Short
+- vaste WhatsApp-actie
+- aparte contact- en nieuwspagina in dezelfde huisstijl
+
+## Bestanden
+- `index.html` — vernieuwde homepage
 - `contact.html` — contact & bereikbaarheid
 - `nieuws.html` — nieuws en marktinzichten
-- `assets/style.css` — responsive vormgeving
+- `assets/style.css` — centrale vormgeving
 - `assets/script.js` — mobiele navigatie
 
-## Zakelijke contactstructuur
-De website is voorbereid op:
-- `info@a2makelaars.com` — algemene vragen
-- `verkoop@a2makelaars.com` — verkoop / waardebepaling
-- `aankoop@a2makelaars.com` — aankoopbegeleiding
-- `win@a2makelaars.com` — persoonlijk zakelijk adres voor Win (niet standaard publiek tonen)
+## Contactstructuur
+- `info@a2makelaars.com`
+- `verkoop@a2makelaars.com`
+- `aankoop@a2makelaars.com`
 - zakelijk mobiel / WhatsApp: **06 17 75 04 05**
 
-Persoonlijk/direct nummer van Win is bewust niet als hoofdnummer op de site gezet.
-
-## Contactpunt Aalsmeer
+## Zakelijk contactpunt Aalsmeer
 Eric Godschalk — Control4u Administraties B.V.
 Aalsmeerderweg 283-35
 1432 CN Aalsmeer
 0297 - 768003
 info@control4uadministraties.nl
 
-## Hostinger Mail
-Maak in hPanel onder E-mail de volgende mailboxen of aliassen aan:
-1. info@a2makelaars.com
-2. verkoop@a2makelaars.com
-3. aankoop@a2makelaars.com
-4. win@a2makelaars.com
+## Video
+YouTube Short:
+https://youtube.com/shorts/dvJ97FzT5oE?is=65gGCWRhgiHgzlfz
 
-Advies: gebruik `info@` als echte hoofdmailbox en laat `verkoop@` en `aankoop@` als aliassen doorsturen naar die mailbox, tenzij meerdere medewerkers ieder een eigen inbox nodig hebben.
-
-## GitHub → Hostinger
+## Hostinger deployment
 Repository: `wienes-source/A2Makelaars.com`
 Branch: `main`
+Doelmap: `public_html`
 
-In Hostinger:
-1. Websites → A2Makelaars.com → Dashboard
-2. Advanced / Geavanceerd → Git
-3. Connect with GitHub
-4. Repository `wienes-source/A2Makelaars.com`
-5. Branch `main`
-6. Deploy naar `public_html`
-7. Automatische deployment inschakelen
-
-Maak vóór de eerste deployment een back-up van de bestaande `public_html`.
-
-## Status
-Basisstructuur bijgewerkt op 24 november 2026.
+Maak vóór een eerste deployment over een bestaande site altijd een back-up van `public_html`.
