@@ -14,6 +14,7 @@ De website is voorbereid op:
 - `info@a2makelaars.com` — algemene vragen
 - `verkoop@a2makelaars.com` — verkoop / waardebepaling
 - `aankoop@a2makelaars.com` — aankoopbegeleiding
+- `win@a2makelaars.com` — persoonlijk zakelijk adres voor Win (niet standaard publiek tonen)
 - zakelijk mobiel / WhatsApp: **06 17 75 04 05**
 
 Persoonlijk/direct nummer van Win is bewust niet als hoofdnummer op de site gezet.
@@ -30,6 +31,7 @@ Maak in hPanel onder E-mail de volgende mailboxen of aliassen aan:
 1. info@a2makelaars.com
 2. verkoop@a2makelaars.com
 3. aankoop@a2makelaars.com
+4. win@a2makelaars.com
 
 Advies: gebruik `info@` als echte hoofdmailbox en laat `verkoop@` en `aankoop@` als aliassen doorsturen naar die mailbox, tenzij meerdere medewerkers ieder een eigen inbox nodig hebben.
 
